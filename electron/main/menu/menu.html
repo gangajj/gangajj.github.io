@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./menu.css">
+    <script>if (typeof module === 'object') {window.module = module; module = undefined;}</script>
+    <script src="./render.js"></script>
+</head>
+<body>
+    <img src="closeicon.png" alt="close" class="closeicon" onclick="closePopup()" style="width:20px;height:20px;"/>
+    <div class="container" >
+        <span class="line1"> Version 2.1(2) 	</span><br>
+        <span class="line2"> Copyright 2017 Ganga.com,Inc.</span><br>
+        <span  class="line3"> All rights reserved. </span><br>
+    </div>
+    <button id="authenticate" onclick="openAck()">Acknowledgement</button>
+    <button id="policy" onclick="openPrivacy()">Privacy policy</button>
+    <button id="start" onclick="openUse()">Terms of use</button>
+    <script>if (window.module) module = window.module;</script>
+</body>
+</html>

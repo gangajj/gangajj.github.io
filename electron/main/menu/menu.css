@@ -1,0 +1,29 @@
+.line1 {
+    font-size: 12px;
+    margin-left: 160px;
+}
+.line2 {
+    margin-left: 128px;
+    font-size: 12px;
+}
+.line3 {
+    font-size: 12px;
+    margin-left: 160px;
+}
+.container {
+    padding-top: 25px;
+}
+#authenticate,
+#policy,
+#start {
+    margin: 5px;
+    position: relative;
+    top: 40px;
+}
+#authenticate {
+    margin-left: 21px;
+}
+.closeicon {
+    position: absolute;
+    right: 0px;
+}
